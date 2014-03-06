@@ -1,0 +1,129 @@
+---------------------------------------------------------------------
+Thu Mar 06 15:40:25 2014
+
+
+Reason: out of memory
+
+
+Hardware information: 
+	Manufacturer: Unknown
+	Model: Unknown
+	Number of processors: 4
+	Page size: 4096
+
+Memory Information (upon launch):
+	Physical Memory Size: 4194303 kbytes
+	Physical Memory Free: 4019236 kbytes
+	Page File Size: 4194303 kbytes
+	Page File Free: 4194303 kbytes
+	Virtual Memory Size: 2097024 kbytes
+	Virtual Memory Free: 2028964 kbytes
+	Memory Load: 50 percent
+
+Processor 0: Intel(R) Core(TM) i5-3380M CPU @ 2.90GHz
+	Identifier: Intel64 Family 6 Model 58 Stepping 9
+	~MHZ: 2893
+
+Processor 1: Intel(R) Core(TM) i5-3380M CPU @ 2.90GHz
+	Identifier: Intel64 Family 6 Model 58 Stepping 9
+	~MHZ: 2893
+
+Processor 2: Intel(R) Core(TM) i5-3380M CPU @ 2.90GHz
+	Identifier: Intel64 Family 6 Model 58 Stepping 9
+	~MHZ: 2893
+
+Processor 3: Intel(R) Core(TM) i5-3380M CPU @ 2.90GHz
+	Identifier: Intel64 Family 6 Model 58 Stepping 9
+	~MHZ: 2893
+
+Operating System: Windows 7 Enterprise (Build 7601 Service Pack 1)
+	Registered Owner: UOSL-X
+	Registered Company: UOIT
+	SP major version: 1
+	SP minor version: 0
+	Suite mask: 100
+	Product type: 1
+
+Display Information: 
+	Graphics adapter name: NVIDIA NVS 5400M  
+	Primary monitor resolution: 1600 x 900
+
+Device: RDPDD Chained DD
+	Adapter String: ???
+	Bios String: ???
+	Chip Type: ???
+	DAC Type: ???
+	Memory Size: 0xFFFFFFFF
+
+Driver Versions:
+	RDPDD: 
+
+VM Version: Squeak4.1.1 from Jul 27 2010
+
+Current byte code: 208
+Primitive index: 0
+
+Loaded plugins:
+	SocketPlugin 3 April 2010 (i)
+	LocalePlugin 3 April 2010 (i)
+	B2DPlugin 3 April 2010 (i)
+	BitBltPlugin 3 April 2010 (i)
+	SecurityPlugin 3 April 2010 (i)
+	FilePlugin 3 April 2010 (i)
+	LargeIntegers v1.5 3 April 2010 (i)
+	MiscPrimitivePlugin 3 April 2010 (i)
+
+The Smalltalk Stack:
+584442684 Behavior>isVariable
+584442592 Behavior>basicNew
+584442500 Behavior>new
+584442408 Exception class>signal
+584441396 Behavior>basicNew
+584441304 Behavior>new
+584441212 Exception class>signal
+584441120 Behavior>basicNew
+584441028 Behavior>new
+584440936 Exception class>signal
+584440844 Behavior>basicNew
+584440752 Behavior>new
+584440660 Exception class>signal
+584440016 Behavior>basicNew
+584439924 Behavior>new
+584439832 Exception class>signal
+584439740 Behavior>basicNew:
+584439408 Array class>new:
+584439156 CharacterScanner>basicScanCharactersFrom:to:in:rightX:stopConditions:kern:
+584438904 CharacterScanner>scanCharactersFrom:to:in:rightX:stopConditions:kern:
+584437680 CompositionScanner>composeFrom:inRectangle:firstLine:leftSide:rightSide:
+584437564 TextComposer>composeEachRectangleIn:
+584437472 TextComposer>composeAllRectangles:
+584437380 TextComposer>composeOneLine
+584434144 TextComposer>composeAllLines
+584434052 TextComposer>composeLinesFrom:to:delta:into:priorLines:atY:textStyle:text:container:wantsColumnBreaks:
+584434488 NewParagraph>composeLinesFrom:to:delta:into:priorLines:atY:
+584433960 NewParagraph>composeAll
+584433868 NewParagraph>compose:style:from:in:
+584433776 TextMorph>paragraph
+584432412 TextMorph>newContents:
+584432084 TextMorph>contents:wrappedTo:
+584430824 PluggableTextMorph>setText:
+584430732 PluggableTextMorphPlus>setText:
+584430612 PluggableTextMorph>on:text:accept:readSelection:menu:
+584425848 PluggableTextMorph class>on:text:accept:readSelection:menu:
+584425756 MorphicToolBuilder>buildPluggableText:
+584425664 PluggableTextSpec>buildWith:
+584425572 ToolBuilder>buildAll:in:
+584420024 OrderedCollection>do:
+584419932 ToolBuilder>buildAll:in:
+584416164 MorphicToolBuilder>buildPluggableWindow:
+584416072 PluggableWindowSpec>buildWith:
+584415908 ToolBuilder>build:
+584415816 MorphicToolBuilder>open:
+584415724 ToolBuilder>openDebugger:
+584302280 Debugger>openNotifierContents:label:
+584272248 Debugger class>openInterrupt:onProcess:
+584272156 MorphicProject>interruptName:preemptedProcess:
+76421140 SmalltalkImage>lowSpaceWatcher
+76421048 SmalltalkImage>installLowSpaceWatcher
+76421232 BlockClosure>newProcess
+
